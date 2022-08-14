@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.0, user-scalable=no">
+	<title>PetDay</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>		<script src="C:\Users\nikit\Desktop\Project New\js\script.js"></script>
+	<script src="./js/script.js"></script>
+
+</head>
+<body>
+	<!-- Header Start -->
+	<header class="header">
+		<div class="wrapper">
+			<div class="header_wrapper">
+				<div class="header_logo">
+					<a href="#" class="header_logo_pic">
+						<img src="./img/PetDay.svg" alt="PetDay">
+					</a>
+					<a href="#" class="header_logo_vector">
+						<img src="./img/Vector.svg" alt="Vector">
+					</a>
+				</div>
+
+					<nav class="header_nav">
+						<ul class="header_list">
+							<li class="header_item">
+								<a href="#" class="header_link">О нас</a>
+							</li>
+							<li class="header_item">
+								<a href="#" class="header_link">Номера</a>
+							</li>
+							<li class="header_item">
+								<a href="#" class="header_link">Вопросы</a>
+							</li>
+							<li class="header_item">
+								<a href="#" class="header_link">Услуги</a>
+							</li>
+							<li class="header_item">
+								<a href="#" class="header_link">Галерея</a>
+							</li>
+							<li class="header_item">
+								<a href="#" class="header_link">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				<div class="header_number">
+						<a href="#" class="header_link_number">+7 981 368 92 01</a>
+				</div>	
+			</div>
+		</div>
+	</header>
+<!-- Header End -->
+
+<!-- Main Start -->
+	<main class="main">
+
+		<!-- Intro Start -->
+		<section class="intro">
+			<div class="wrapper">
+				<img src="./img/intro_dog.png" class="intro_dog" alt="Dog">
+				<h1 class="intro_title">Современная гостиница для домашних животных</h1>
+				<p class="intro_subtitle">В надежных руках и под тщательным наблюдением питомец проведет “отпуск” в комфорте в нашей гостинице.</p>
+				<button class="intro_booking_button" id="open_pop_up_b">Забронировать</button>
+				<img src="./img/intro_cat.png" class="intro_cat" alt="Cat">
+			</div>
+		</section>
+		<!-- Intro End -->
+
+		<!-- Pop Up Booking Start -->
+		<section>
+			<div class="pop_up_b" id="pop_up_b">
+				<div class="pop_up_b_wrapper" id="pop_up_b_wrapper">
+					<div class="pop_up_b_body">
+						<div class="pop_up_b_cards">
+							<div class="pop_up_b_card">
+								<h3 class="pop_up_b-title">Имя</h3>
+								<input type="name" class="pop_up_b-input" placeholder="Мария">
+							</div>
+							<div class="pop_up_b_card">
+								<h3 class="pop_up_b-title">Номер телефона</h3>
+								<input type="tel" class="pop_up_b-input" placeholder="+ 7">
+							</div>
+							<div class="pop_up_b_card">
+								<h3 class="pop_up_b-title">Дата заезда</h3>
+								<input type="text" class="pop_up_b-input" placeholder="01.03.2022">
+							</div>
+							<div class="pop_up_b_card">
+								<h3 class="pop_up_b-title">Дата выезда</h3>
+								<input type="text" class="pop_up_b-input" placeholder="06.03.2022">
+							</div>
+						</div>
+						
+						<div class="pop_up_b_am">
+							<h3 class="pop_up_b_am-title">Количество питомцев и желаемый номер</h3>
+							<input type="text" class="pop_up_b_am-input" placeholder="1 собака номер люкс, 2 кошки номер стандарт">
+							<textarea type="text" class="pop_up_b_com" placeholder="Комментарий (необязательно)"></textarea>
+						</div>
+						<button class="pop_up_b-button">Забронировать</button>
+						<div class="pop_up_b_x">
+							<img src="./img/plus.png" alt="" class="pop_up_b_x-pic" id="pop_up_b_close">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Pop Up Booking End -->
+
+		<!-- Why We Start -->
+		<section class="why_we">
+			<div class="why_we_wrapper">
+				<h1 class="why_we_title">Почему мы?</h1>
+				<div class="why_we_slider">
+					<img src="./img/house.png" alt="House" class="why_we_house">
+					<h2 class="why_we_slider_title">Уютно, как дома</h2>
+					<p class="why_we_slider_text">У нас всего 11 номеров, тихая домашняя атмосфера. Это позволяет обеспечить каждому гостю спокойтсвие, внимание  и заботу. Мы любим животных и ухаживаем за ними сами.</p>
+					<button type="submit" class="why_we_slider_button_l"><img src="./img/Arrow - Left Circle.svg" alt="Button Left"></button>
+					<button type="submit" class="why_we_slider_button_r"><img src="./img/Arrow - Right Circle.svg" alt="Button Right"></button>
+				</div>
+			</div>
+		</section>
+		<!-- Why We End -->
+
+		<!-- Number DOG Start -->
+		<section class="number">
+			<div class="number_wrapper">
+				<div class="number_caption">
+					<h2 class="number_title section_title">Номера для собак</h2>
+				</div>
+				<div class="number_cards">
+					<div class="number_card">
+						<h3 class="number_card-title">Мини</h3>
+						<p class="number_card-subtitle"><b>Размер: 4 м<sup>2</sup><br>Видеонаблюдение: нет</b></p>
+						<p class="number_card-text">Расчитан на проживание<br>самых <strong>маленьких</strong> пород.<br>Возможно заселение<br> <strong>одного</strong> питомца.</p>
+						<p class="number_card-price">640 ₽</p> 
+					</div>
+					<div class="number_card">
+						<h3 class="number_card-title">Стандарт</h3>
+						<p class="number_card-subtitle">Размер: 7 м<sup>2</sup><br>Видеонаблюдение: да</p>
+						<p class="number_card-text">Возможно проживание маленьких,<br> средних или больших пород.<br> Максимум <strong>два</strong> питомца.</p>
+						<p class="number_card-price">820 ₽</p> 
+					</div>
+					<div class="number_card">
+						<h3 class="number_card-title">Люкс</h3>
+						<p class="number_card-subtitle">Размер: 12 м<sup>2</sup><br>Видеонаблюдение: да</p>
+						<p class="number_card-text">Рассчитан на проживание<br> маленьких, средних или<br> больших пород. Максимум<br> <strong>три</strong> питомца.</p>
+						<p class="number_card-price">1290 ₽</p> 
+					</div>
+				</div>
+				<div class="number_dog-pic"><img src="./img/number_dog.png" alt="Dog number"></div>
+			</div>
+		</section>
+		<!-- Number DOG End -->
+
+		<!-- Booking Start -->
+		<section class="booking">
+			<div class="booking_wrapper">
+				<div class="booking_caption">
+					<h2 class="booking_title">Не с кем оставить питомца?<br>Забронируйте номер в нашей гостинице!</h2>
+				</div>
+				<button class="booking_button" id="open_pop_up_b">Забронировать</button>
+			</div>
+		</section>
+		<!-- Booking End -->
+
+		<!-- Number Cat Start -->
+		<section class="number_C">
+			<div class="number_C_wrapper">
+				<div class="number_C_caption">
+					<h2 class="number_C_title section_title">Номера для кошек</h2>
+				</div>
+				<div class="number_C_cards">
+					<div class="number_C_card">
+						<h3 class="number_C_card-title">Стандарт</h3>
+						<p class="number_C_card-subtitle">Размер: 6 м<sup>2</sup><br>Видеонаблюдение: нет</p>
+						<p class="number_C_card-text">Номер для проживания <strong>одного</strong> или <br><strong>двух</strong> котиков. В нем предусмотрены <br>2-уровневые полки.</p>
+						<p class="number_C_card-price">640 ₽</p>
+					</div>
+					<div class="number_C_card">
+						<h3 class="number_C_card-title">Люкс</h3>
+						<p class="number_C_card-subtitle">Размер: 9 м<sup>2</sup><br>Видеонаблюдение: да</p>
+						<p class="number_C_card-text">До <strong>трёх</strong> питомцев.<br> Предусмотрены<br> 5-уровневые полки и окно<br> с большим подоконником.</p>
+						<p class="number_C_card-price">720 ₽</p>
+					</div>
+				</div>
+				<div class="number_C_pic"><img src="./img/cat_number_c.png" alt="Cat Pic"></div>
+			</div>
+		</section>
+		<!-- Number Cat End  -->
+
+		<!-- Service Start  -->
+		
+		<section class="service">
+			<div class="service_wrapper">
+				<div class="service_caption">
+					<h2 class="service_title section_title">Дополнительные услуги</h2>
+				</div>
+				<div class="service_cards">
+					<div class="service_card">
+						<img src="img/dog_1.png" alt="Dog_1" class="service_card-pic">
+						<h3 class="service_card-title">Груминг</h3>
+						<p class="service_card-subtitle">Специалист по грумингу сделает<br> питомца красивым и ухоженным.</p>
+						<p class="service_card-price">от  <span class="service_card-num">100 ₽*</span></p>
+					</div>
+					<div class="service_card">
+						<img src="img/dog_2.png" alt="Dog_2" class="service_card-pic">
+						<h3 class="service_card-title">Дрессировка</h3>
+						<p class="service_card-subtitle">Научим питомца послушанию<br> и защите. Работаем с большими<br> и маленькими породами.</p>
+						<p class="service_card-price">от  <span class="service_card-num">850 ₽*</span></p>
+					</div>
+					<div class="service_card">
+						<img src="img/dog_3.png" alt="Dog_3" class="service_card-pic">
+						<h3 class="service_card-title">Дополнительный выгул</h3>
+						<p class="service_card-subtitle">В бронирование уже входит<br> 2 прогулки в день. Но можно<br> добавить еще <strong>максимум</strong> 3 выгула.</p>
+						<p class="service_card-price"><span class="service_card-num">190 ₽</span>/выгул</p>
+					</div>
+				</div>
+				<div class="service_operator">
+					<p class="service_operator-text">*Подробнее узнавайте у оператора</p>
+				</div>
+			</div>
+		</section>
+		<!-- Service End  -->
+
+		<!-- Questions Start -->
+		<section class="question">
+			<div class="question_wrapper">
+				<div class="question_caption">
+					<h2 class="question_title section_title">Ответы на вопросы</h2>
+				</div>
+				<div class="question_pics">
+					<img src="img/Dog_question.png" alt="question_dog" class="question_pic-dog">
+					<img src="img/bg_question.png" alt="question_bg" class="question_pic-bg">
+				</div>
+				<div class="q_accordion">
+
+					<details class="q_accordion_item">
+						<summary class="q_accordion_item-trigger">
+							Возможно ли заселение нестерилизованного питомца?
+						</summary>
+						<summary class="q_accordion_item-content">
+							Almost before we knew it, we had left the ground.
+						</summary>
+					</details>
+
+						<details class="q_accordion_item">
+							<summary class="q_accordion_item-trigger">
+								Какие вещи питомца необходимо взять?
+							</summary>
+							<summary class="q_accordion_item-content">
+								Almost before we knew it, we had left the ground.
+							</summary>
+						</details>	
+
+						<details class="q_accordion_item">
+							<summary class="q_accordion_item-trigger">
+								На какой территории выгуливают собак?
+							</summary>
+							<summary class="q_accordion_item-content">
+								Almost before we knew it, we had left the ground.
+							</summary>
+						</details>
+
+						<details class="q_accordion_item">
+							<summary class="q_accordion_item-trigger">
+								Мой питомец будет взаимодействовать с остальными жителями?
+							</summary>
+							<summary class="q_accordion_item-content">
+								Almost before we knew it, we had left the ground.
+							</summary>
+						</details>
+
+						<details class="q_accordion_item">
+							<summary class="q_accordion_item-trigger">
+								Если питомцу станет плохо, сможете оказать ему медицинскую помощь?							</summary>
+							<summary class="q_accordion_item-content">
+								Almost before we knew it, we had left the ground.
+							</summary>
+						</details>
+
+					</details>
+				</div>
+			</div>
+		</section>
+		<!-- Questions End -->
+
+		<!-- Questions Last Start -->
+		<section>
+			<div class="question_last">
+				<div class="question_last_wrapper">
+					<div class="question_last_caption">
+						<h2 class="question_last-title">Остались вопросы?</h2>
+					</div>
+					<div class="question_last-input_name">
+						<input type="text" class="question_last-input-name-text" placeholder="Имя">
+					</div>
+					<div class="question_last-input_number">
+						<input type="tel" class="question_last-input-number-text" placeholder="+ 7 (XXX) XXX-XX-XX">
+					</div>
+					<div class="question_last-button">
+						<button class="question_last-button-text" id="open_pop_up_q">Заказать звонок</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Questions Last End -->
+
+		<!-- Pop Up Questions Start -->
+		<div class="pop_up_q" id="pop_up_q">
+			<div class="pop_up_q_wrapper">
+				<div class="pop_up_q_body">
+					<div class="pop_up_q-title">
+						<h2 class="pop_up_q-text">Наш менеджер свяжется с Вами в течение 15 минут.</h2>
+					</div>
+					<img src="./img/plus_q.png" alt="Pop Question Plus" class="pop_up_q-pic" id="close_pop_up_q">
+				</div>
+			</div>
+		</div>
+
+		<!-- Pop Up Questions End -->
+
+		<!-- Gallery Start -->
+		<section>
+			<div class="gallery">
+				<div class="gallery_wrapper">
+					<div class="gallery_caption">
+						<h2 class="gallery_title section_title">Галерея</h2>
+					</div>
+					<div class="gallery_cards">
+						<figure class="gallery_card">
+							<img src="img/Pic1.png" alt="Pic_1" class="gallery_card-pic">
+						</figure>
+						
+						<figure class="gallery_card">
+							<img src="img/Pic2.png" alt="Pic_2" class="gallery_card-pic">
+						</figure>
+						
+						<figure class="gallery_card">
+							<img src="img/Pic3.png" alt="Pic_3" class="gallery_card-pic">
+						</figure>
+						
+						<figure class="gallery_card">
+							<img src="img/Pic4.png" alt="Pic_4" class="gallery_card-pic">
+						</figure>
+						
+						<figure class="gallery_card">
+							<img src="img/Pic5.png" alt="Pic_5" class="gallery_card-pic">
+						</figure>
+						
+						<figure class="gallery_card">
+							<img src="img/Pic6.png" alt="Pic_6" class="gallery_card-pic">
+						</figure>
+					</div>
+					<button type="submit"  class="gallery_button_l"><img src="./img/button_gallery_l.svg" alt="Gallery Left"></button>
+					<button type="submit"  class="gallery_button_r"><img src="./img/button_gallery_r.svg" alt="Gallery Right"></button>
+				</div>
+			</div>
+		</section>
+		<!-- Gallery End -->
+
+		<!-- Welcome Start -->
+		<section>
+			<div class="welcome">
+				<div class="welcome_wrapper">
+					<div class="welcome_caption">
+						<h2 class="welcome_title section_title">Заходите в гости</h2>
+					</div>
+					<div class="welcome_text">
+						<p class="welcome_city">г. Санкт-Петербург, ул. Колпинская, 10</p>
+						<p class="welcome_date">ПН-ВС с 8:00 до 22:00</p>
+						<p class="welcome_number">+7 981 368 92 01</p>
+						<p class="welcome_mail">petday@gmail.com</p>
+					</div>
+					<div class="welcome_map">
+						<iframe class="welcome_google_maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.4259063228926!2d30.35244195179587!3d59.9250746700657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631b0318e744f%3A0xe8414dbccd2ac88a!2z0JrQvtC70L7QvNC10L3RgdC60LDRjyDRg9C7LiwgMTAsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTEwNDA!5e0!3m2!1sru!2sru!4v1659987864777!5m2!1sru!2sru" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Welcome End -->
+	</main>
+
+	<!-- Footer Start -->
+	<footer class="footer">
+		<div class="footer_wrapper">
+			<div class="footer_logo">
+				<a href="#" class="footer_logo_pic">
+					<img src="./img/PetDay.svg" alt="">
+				</a>
+				<a href="#" class="footer_logo_vector">
+					<img src="./img/Vector.svg" alt="">
+				</a>
+			</div>
+			<nav class="footer_nav">
+				<ul class="footer_list">
+					<li class="footer_item">
+						<a href="#" class="footer_link">О нас</a>
+					</li>
+					<li class="footer_item">
+						<a href="#" class="footer_link">Номера</a>
+					</li>
+					<li class="footer_item">
+						<a href="#" class="footer_link">Вопросы</a>
+					</li>
+					<li class="footer_item">
+						<a href="#" class="footer_link">Услуги</a>
+					</li>
+					<li class="footer_item">
+						<a href="#" class="footer_link">Галерея</a>
+					</li>
+					<li class="footer_item">
+						<a href="#" class="footer_link">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="footer_messanger">
+				<div class="footer_facebook">
+					<a href="" class="footer_facebook-link"><img src="./img/facebook.svg" alt=""></a>
+				</div>
+				<div class="footer_telegram">
+					<a href="" class="footer_telegram-link"><img src="./img/telegram.svg" alt=""></a>
+				</div>
+			</div>
+		</div>
+		<div class="footer_policity">
+			<nav class="footer_policity-nav">
+				<ul class="footer_policity-list">
+					<li class="footer_policity-item">
+						<a href="#" class="footer_link">Политика конфиденциальности</a>
+					</li>
+					<li class="footer_policity-item">
+						<a href="#" class="footer_link">Пользовательское соглашение</a>
+					</li>
+					<li class="footer_policity-item">
+						<a href="#" class="footer_link">Договор оферты по передержке</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</footer>
+	<!-- Footer End -->
+</body>
+</html>
