@@ -432,6 +432,7 @@ html {
 }
 
 body {
+    min-width: 1920px;
     font-family: 'Raleway' ;
     font-style: normal;
     font-size: 16px;
@@ -441,7 +442,7 @@ body {
 }
 
 .wrapper {
-    max-width: 1300px;
+    max-width: 1500px;
     margin: 0 auto; 
 }
 
@@ -457,10 +458,10 @@ body {
 .header {
     top: 0;
     left: 0;
-    width: 100%;
 }
 
 .header_wrapper {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -545,7 +546,7 @@ body {
 /* Intro styles start */
 
 .intro {
-    min-width: 1302px;
+    min-width: 1500px;
     min-height: 712px;
     padding-top: 179px;
     margin-bottom: 200px;
@@ -582,7 +583,7 @@ body {
     border: 0;
 }
 
-.booking_button:hover, .booking_button:focus {
+.intro_booking_button:hover, .intro_booking_button:focus {
     background: #006A35;
     transition: 0.3s all;
 }
@@ -936,6 +937,11 @@ body {
     border: 0;
 }
 
+.booking_button:hover, .booking_button:focus {
+    background: #006A35;
+    transition: 0.3s all;
+}
+
 /* Booking Styles End */
 
 /* Number Cats Styles Start */
@@ -1280,6 +1286,11 @@ body {
     padding: 18px;
     padding-left: 77px;
     padding-right: 77px;
+}
+
+.question_last-button-text:hover, .question_last-button-text:focus {
+    background: #006A35;
+    transition: 0.3s all;
 }
 
 /* Question Last Styles End */
